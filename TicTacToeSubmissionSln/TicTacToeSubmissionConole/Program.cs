@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 namespace TicTacToeSubmissionConole
 {
     class Program
@@ -9,7 +10,7 @@ namespace TicTacToeSubmissionConole
             ConsoleColor oldColor = Console.ForegroundColor;
 
             Console.SetCursorPosition(10,2);
-            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("Welcome to Tic Tac Toe");
 
             var ticTacToe = new TicTacToe();
